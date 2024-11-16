@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Peaceful-Wishes";
+    src: url("../fonts/Peaceful-Wishes.ttf");
+}
+
+.title1 {
+    font-family: "Peaceful-Wishes";
+    font-size: 2em;
+    color: #4CAF50; /* Green color for emphasis */
+    text-shadow: 1px 1px 2px #000000; /* Add a subtle shadow */
+    text-align: center; /* Center the title */
+}
+
+/* Google Font Examples */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.tertiary-font {
+    font-family: "Lobster", cursive;
+    font-size: 1.2em;
+    color: #007BFF; /* Blue color for emphasis */
+    text-align: center; /* Center align the text */
+}
+
+.quaternary-font {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3em;
+    color: #FF6347; /* Tomato color for emphasis */
+    text-align: center; /* Center align the text */
+    background-color: #F0F0F0; /* Light gray background */
+    padding: 10px; /* Add padding */
+}
+
+.quinary-font {
+    font-family:"Pacifico", cursive;
+    font-size: 1.4em;
+    color: #8A2BE2; /* BlueViolet color for emphasis */
+    text-align: center; /* Center align the text */
+    border: 2px dashed #8A2BE2; /* Add a dashed border */
+    padding: 10px; /* Add padding */
+    margin: 10px 0; /* Add margin */
+}
+
+/* Center h2 with Underline */
+h2 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px; /* Space below the heading */
+    color: #a80808
+}
+
+
+/* Icon Font Example */
+.icon-container {
+    text-align: center; /* Center the icons */
+}
+
+.icon-font {
+    font-size: 4em; /* Increase icon size */
+    color: #FFFFFF; /* White color for icons */
+    background-color: #2196F3; /* Blue background */
+    border-radius: 50%; /* Make the background circular */
+    padding: 20px; /* Add padding around the icons */
+    margin: 10px; /* Add margin to space out the icons */
+    display: inline-flex; /* Ensure the icons are treated as inline elements */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Align items horizontally */
+    width: 80px; /* Ensure all icons have the same width */
+    height: 80px; /* Ensure all icons have the same height */
+}
